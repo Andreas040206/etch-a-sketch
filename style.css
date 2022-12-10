@@ -1,0 +1,139 @@
+.theWholeShitContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+   
+   .header{
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    width: 700px;
+    margin: 20px;
+   }
+
+   #gridContainer { 
+    background-color: whitesmoke;
+    border: solid 4px black;
+    display: grid;
+    grid-template-columns: repeat(50, 1fr [gridBoksColumn]);
+    grid-template-rows: repeat(50, 1fr [gridBoksesRow]);
+    width: 700px;
+    height: 700px;
+   }
+
+   .grids{
+    background-color: white;
+   }
+
+   .color{
+    background-color: red;
+   }
+
+#menuContainer{
+    display: grid;
+    border-radius: 0px;
+    grid-template-columns: repeat(9, 1fr [gridBoksColumn]);;
+    grid-template-rows: repeat(2, 1fr [gridBoksesRow]);
+    gap: 20px;
+    margin: 20px;
+    height: 130px;
+    width: 708px;
+}
+
+
+.colorButtons{
+    border: solid 4px black;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+
+.bottomMenuContainer{
+    display: flex;
+    justify-content: center;
+    width: 710px;
+    gap: 20px;
+}
+
+.bottomMenu {
+    display: flex;
+    border: solid 4px black;
+    background-color: white;
+    padding: 8px 24px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.selectedColorText{
+    margin-left: auto;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 11px 0px;
+}
+
+#selectedColorShow{
+    border: solid 4px black;
+    width: 42px;
+}
+
+
+    .white{
+        background-color: white;
+    }
+    .grey{
+        background-color: rgb(147, 147, 147);
+    }
+    .pink{
+        background-color: rgb(255, 46, 220);
+    }
+    .red{
+        background-color: rgb(254, 0, 0);
+    }
+    .darkred{
+        background-color: rgb(129, 0, 0);
+    }
+    .orange{
+        background-color: rgb(255, 132, 0);
+    }
+    .yellow{
+        background-color: rgb(255, 221, 0);
+    }
+    .lightskin{
+        background-color: rgb(223, 175, 108);
+    }
+    .yellowGreen{
+        background-color: rgb(217, 255, 0);
+    }
+    .black{
+        background-color: rgb(0, 0, 0);
+    }
+    .brown{
+        background-color: rgb(133, 80, 22);
+    }
+    .purple{
+        background-color: rgb(130, 5, 255);
+    }
+    .darkblue{
+        background-color: rgb(0, 33, 125);
+    }
+    .blue{
+        background-color: rgb(0, 81, 255);
+    }
+    .lightblue{
+        background-color: rgb(0, 204, 255);
+    }
+    .cyan{
+        background-color: rgb(0, 242, 190);
+    }
+    .green{
+        background-color: rgb(0, 209, 7);
+    }
+    .darkgreen{
+        background-color: rgb(18, 99, 0);
+    }
