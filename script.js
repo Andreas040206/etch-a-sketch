@@ -20,6 +20,12 @@ function createGrid(){
              gridEl.className = color
       }
 
+      gridEl.ondragover = function changeColor(){
+        if (!(ifMouseDown === 'up')) {
+           gridEl.className = color
+       }
+   }
+
       gridEl.onmouseover = function changeColor(){
            if (ifMouseDown === 'down') {
               gridEl.className = color
@@ -58,6 +64,10 @@ function changeTheGrid (){
 
 document.addEventListener('mousedown', function(){
     ifMouseDown = 'down'; 
+})
+
+document.addEventListener('dragend', function(){
+    ifMouseDown = 'up'; 
 })
 
 document.addEventListener('mouseup', function(){
